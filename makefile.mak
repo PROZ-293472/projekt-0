@@ -1,6 +1,6 @@
 main: main.cpp message.cpp message.h
-	g++ -Wall -c main.cpp message.cpp -o main.o
+	g++ main.cpp message.cpp
 clean:
-	rm -f main.o
+	rm  a.exe
 start: main.o
-	./main.o
+	./a.exe
